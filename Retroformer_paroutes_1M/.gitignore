@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.hdf5
+.env
+*.log
+node_modules/
+venv/

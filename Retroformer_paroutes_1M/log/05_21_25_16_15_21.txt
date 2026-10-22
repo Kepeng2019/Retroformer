@@ -1,0 +1,73 @@
+Namespace(batch_size_token=4096, batch_size_trn=1, batch_size_val=1, checkpoint='', checkpoint_dir='./checkpoint_untyped', d_ff=2048, d_model=256, data_dir='./data', decoder_num_layers=8, device='cuda', dropout=0.3, encoder_num_layers=8, heads=8, intermediate_dir='./intermediate', known_class='False', max_epoch=5000, max_step=800000, report_per_step=20000, save_per_step=25000, shared_encoder='False', shared_vocab='False', val_per_step=25000, verbose=False)
+[Epoch 1 Iter 20000] Loss 5276.9198 NLL-Loss 1582.331 Rc-Loss 239.5246 436.177 Align-Loss 3018.8872
+Validation accuracy: 0.9125 - 0.8766 - 0.908
+[Epoch 2 Iter 40000] Loss 4656.9337 NLL-Loss 1265.9983 Rc-Loss 217.9654 397.9593 Align-Loss 2775.0108
+Validation accuracy: 0.9186 - 0.8836 - 0.9258
+[Epoch 4 Iter 60000] Loss 4497.3243 NLL-Loss 1197.3237 Rc-Loss 209.4384 383.4778 Align-Loss 2707.0845
+Validation accuracy: 0.922 - 0.8884 - 0.9334
+[Epoch 5 Iter 80000] Loss 4418.764 NLL-Loss 1166.4463 Rc-Loss 203.5931 373.0889 Align-Loss 2675.6356
+[Epoch 6 Iter 100000] Loss 4371.6625 NLL-Loss 1149.2035 Rc-Loss 199.5716 365.7575 Align-Loss 2657.1299
+Validation accuracy: 0.9241 - 0.8908 - 0.9394
+[Epoch 8 Iter 120000] Loss 4342.4639 NLL-Loss 1138.885 Rc-Loss 196.2135 359.5782 Align-Loss 2647.7872
+Validation accuracy: 0.9253 - 0.8928 - 0.9436
+[Epoch 9 Iter 140000] Loss 4319.3244 NLL-Loss 1132.3904 Rc-Loss 193.5386 354.439 Align-Loss 2638.9564
+Validation accuracy: 0.9277 - 0.8965 - 0.9459
+[Epoch 10 Iter 160000] Loss 4297.5131 NLL-Loss 1126.4143 Rc-Loss 191.111 349.9946 Align-Loss 2629.9933
+Validation accuracy: 0.9286 - 0.8969 - 0.9486
+[Epoch 12 Iter 180000] Loss 4285.9757 NLL-Loss 1123.9023 Rc-Loss 188.9645 345.7805 Align-Loss 2627.3285
+[Epoch 13 Iter 200000] Loss 4271.6684 NLL-Loss 1120.7592 Rc-Loss 186.8753 341.9239 Align-Loss 2622.1101
+Validation accuracy: 0.9296 - 0.8989 - 0.9513
+[Epoch 14 Iter 220000] Loss 4266.5154 NLL-Loss 1120.1258 Rc-Loss 185.7115 339.5688 Align-Loss 2621.1093
+Validation accuracy: 0.9304 - 0.9 - 0.953
+[Epoch 16 Iter 240000] Loss 4259.081 NLL-Loss 1119.882 Rc-Loss 183.9382 336.2935 Align-Loss 2618.9672
+Validation accuracy: 0.9312 - 0.9009 - 0.9547
+[Epoch 17 Iter 260000] Loss 4250.5684 NLL-Loss 1118.9073 Rc-Loss 182.2751 333.0998 Align-Loss 2616.2862
+Validation accuracy: 0.9319 - 0.9018 - 0.9559
+[Epoch 18 Iter 280000] Loss 4248.0447 NLL-Loss 1119.9722 Rc-Loss 181.1291 330.8008 Align-Loss 2616.1425
+[Epoch 20 Iter 300000] Loss 4244.3135 NLL-Loss 1120.4421 Rc-Loss 179.7245 328.0353 Align-Loss 2616.1116
+Validation accuracy: 0.9323 - 0.9028 - 0.957
+[Epoch 21 Iter 320000] Loss 4234.0271 NLL-Loss 1118.1727 Rc-Loss 178.4172 325.5192 Align-Loss 2611.9179
+Validation accuracy: 0.9334 - 0.9041 - 0.9576
+[Epoch 22 Iter 340000] Loss 4227.7063 NLL-Loss 1115.4438 Rc-Loss 177.6851 324.0384 Align-Loss 2610.5391
+Validation accuracy: 0.9339 - 0.905 - 0.958
+[Epoch 24 Iter 360000] Loss 4222.1084 NLL-Loss 1113.7368 Rc-Loss 176.2591 321.5957 Align-Loss 2610.5167
+Validation accuracy: 0.9341 - 0.9051 - 0.9589
+[Epoch 25 Iter 380000] Loss 4210.5711 NLL-Loss 1110.2597 Rc-Loss 175.0876 319.2856 Align-Loss 2605.9381
+[Epoch 26 Iter 400000] Loss 4208.513 NLL-Loss 1109.0384 Rc-Loss 174.4461 317.9086 Align-Loss 2607.1199
+Validation accuracy: 0.9344 - 0.9057 - 0.9591
+[Epoch 28 Iter 420000] Loss 4200.379 NLL-Loss 1107.0029 Rc-Loss 173.3854 315.97 Align-Loss 2604.0207
+Validation accuracy: 0.9349 - 0.9057 - 0.9595
+[Epoch 29 Iter 440000] Loss 4194.0759 NLL-Loss 1104.8435 Rc-Loss 172.2877 313.8127 Align-Loss 2603.132
+Validation accuracy: 0.9358 - 0.9076 - 0.9603
+[Epoch 30 Iter 460000] Loss 4187.6931 NLL-Loss 1102.9264 Rc-Loss 171.8341 312.8376 Align-Loss 2600.095
+Validation accuracy: 0.9361 - 0.9082 - 0.9605
+[Epoch 32 Iter 480000] Loss 4185.6726 NLL-Loss 1102.3009 Rc-Loss 170.9303 311.1836 Align-Loss 2601.2577
+[Epoch 33 Iter 500000] Loss 4177.8403 NLL-Loss 1100.3779 Rc-Loss 169.757 308.9804 Align-Loss 2598.7251
+Validation accuracy: 0.936 - 0.9074 - 0.9607
+[Epoch 34 Iter 520000] Loss 4176.0475 NLL-Loss 1099.7481 Rc-Loss 169.2123 308.0585 Align-Loss 2599.0285
+Validation accuracy: 0.9365 - 0.9082 - 0.961
+[Epoch 36 Iter 540000] Loss 4169.1709 NLL-Loss 1097.6171 Rc-Loss 168.5694 306.7485 Align-Loss 2596.2359
+Validation accuracy: 0.9368 - 0.9091 - 0.9611
+[Epoch 37 Iter 560000] Loss 4162.9715 NLL-Loss 1095.9881 Rc-Loss 167.4865 304.6428 Align-Loss 2594.854
+Validation accuracy: 0.937 - 0.9091 - 0.9615
+[Epoch 38 Iter 580000] Loss 4162.3052 NLL-Loss 1095.7725 Rc-Loss 167.1396 303.8247 Align-Loss 2595.5684
+[Epoch 40 Iter 600000] Loss 4156.6867 NLL-Loss 1094.1073 Rc-Loss 166.3374 302.3976 Align-Loss 2593.8444
+Validation accuracy: 0.937 - 0.9094 - 0.9618
+[Epoch 41 Iter 620000] Loss 4154.019 NLL-Loss 1093.7412 Rc-Loss 165.3721 300.487 Align-Loss 2594.4188
+Validation accuracy: 0.9374 - 0.9097 - 0.9617
+[Epoch 42 Iter 640000] Loss 4149.6762 NLL-Loss 1092.0623 Rc-Loss 165.1275 300.014 Align-Loss 2592.4724
+Validation accuracy: 0.938 - 0.9107 - 0.9622
+[Epoch 44 Iter 660000] Loss 4150.4274 NLL-Loss 1092.4743 Rc-Loss 164.7228 299.2652 Align-Loss 2593.9651
+Validation accuracy: 0.9382 - 0.9108 - 0.9624
+[Epoch 45 Iter 680000] Loss 4145.332 NLL-Loss 1091.1767 Rc-Loss 163.6412 297.2397 Align-Loss 2593.2744
+[Epoch 46 Iter 700000] Loss 4146.5146 NLL-Loss 1091.3104 Rc-Loss 163.7859 297.5242 Align-Loss 2593.8941
+Validation accuracy: 0.9383 - 0.9106 - 0.9626
+[Epoch 48 Iter 720000] Loss 4137.0519 NLL-Loss 1089.0322 Rc-Loss 162.7716 295.5427 Align-Loss 2589.7054
+Validation accuracy: 0.9384 - 0.911 - 0.9626
+[Epoch 49 Iter 740000] Loss 4134.5806 NLL-Loss 1088.3942 Rc-Loss 161.964 293.8811 Align-Loss 2590.3412
+Validation accuracy: 0.9389 - 0.9118 - 0.963
+[Epoch 50 Iter 760000] Loss 4134.3401 NLL-Loss 1088.6785 Rc-Loss 161.8456 293.7236 Align-Loss 2590.0923
+Validation accuracy: 0.9388 - 0.9114 - 0.9633
+[Epoch 52 Iter 780000] Loss 4130.3374 NLL-Loss 1087.1289 Rc-Loss 161.1674 292.3935 Align-Loss 2589.6476
+[Epoch 53 Iter 800000] Loss 4123.7495 NLL-Loss 1085.7964 Rc-Loss 160.4099 290.8382 Align-Loss 2586.7049
+Validation accuracy: 0.9386 - 0.911 - 0.9632

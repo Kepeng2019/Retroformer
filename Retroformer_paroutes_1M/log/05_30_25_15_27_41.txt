@@ -1,0 +1,4 @@
+Namespace(batch_size_token=4096, batch_size_trn=1, batch_size_val=1, checkpoint='model_75000.pt', checkpoint_dir='./checkpoint_typed', d_ff=2048, d_model=256, data_dir='./data', decoder_num_layers=8, device='cuda:0', dropout=0.3, encoder_num_layers=8, heads=8, intermediate_dir='./intermediate', known_class='True', max_epoch=1000, max_step=800000, report_per_step=2000, save_per_step=2000, shared_encoder='False', shared_vocab='False', std_checkpoint='', std_decoder_num_layers=4, std_encoder_num_layers=4, val_per_step=2000, verbose=False)
+[Epoch 0 Iter 2000] Loss 633.1985 NLL-Loss 2261.215 Rc-Loss 259.6948 458.8966 Align-Loss 3352.1775
+Validation accuracy: 0.9041 - 0.8683 - 0.6924
+[Epoch 0 Iter 4000] Loss 576.712 NLL-Loss 1920.8836 Rc-Loss 217.2475 376.3065 Align-Loss 3252.6814
