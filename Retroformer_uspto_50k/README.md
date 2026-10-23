@@ -41,11 +41,6 @@ Retroformer_uspto_50k/
 
 
 
-## Data:
-
- The raw reaction dataset are presented into the data directory. One can also create your own reaction dataset.
-
-
 
 ## Train:
 
@@ -76,7 +71,7 @@ bash 01_train_no_class.sh
 04_translate_kd_class_10_beam_3.sh
 ```
 
-you can download the checkpoint file at https://a.b.com
+you can download the data and checkpoint file at [Science DB](https://doi.org/10.57760/sciencedb.0170u)
 
 The file path are Data_and_checkpoint_files/Retroformer_uspto_50k/checkpoint_typed and Data_and_checkpoint_files/Retroformer_uspto_50k/checkpoint_untyped, put the checkpoint file in the same file name.
 
