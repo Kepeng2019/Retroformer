@@ -78,7 +78,7 @@ The file path are Data_and_checkpoint_files/Retroformer_uspto_50k/checkpoint_typ
 
 ## Reference:
 
-If you find our work useful, please cite by:
+
 ```
 @InProceedings{pmlr-v162-wan22a,
   title = {Retroformer: Pushing the Limits of End-to-end Retrosynthesis Transformer},
